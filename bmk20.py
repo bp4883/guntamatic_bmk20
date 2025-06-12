@@ -32,12 +32,13 @@ class bmk20Data:
         self.co2                 = 0.0
 
 class bmk20:
-    def __init__(self):
+    def __init__(self, ip):
         self.daten = bmk20Data()
+        self.ip = ip
     
-    def getData(self, ip):
+    def getData(self):
         try:
-            url = "http://"+ip+"/daqdata.cgi"
+            url = "http://"+self.ip+"/daqdata.cgi"
             response = requests.get(url)
             
             if response.status_code == 200:

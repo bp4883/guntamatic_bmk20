@@ -8,11 +8,11 @@ http://192.168.0.204/daqdata.cgi
 The description of the data is on:
 http://192.168.0.204/daqdesc.cgi
 
-Access to 
+Access to web server
 http://192.168.0.204/demo/index.htm
 
 
-i created this class and more to read, analys the data and inform my self with email.
+i created this class and more to read ofer ethernet, analys the data and inform my self with email.
 
 On my Raspberry Pi, this is called every 5 min.
 
